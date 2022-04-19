@@ -16,12 +16,45 @@
    
       <meta property="og:url" content="https://jakarta.go.id">
     <!-- Style -->
+   
   <link rel="icon" type="image/png" href="https://jakarta.go.id/images/favicon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://jakarta.go.id/images/favicon.png">
+  <link rel="stylesheet" href="https://diskominfo.jogjaprov.go.id/asset/css/style.css">
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/slick-carousel@1.8.1/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/slick-carousel@1.8.1/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/slick-carousel@1.8.1/slick/slick-theme.css">
+  
+  <link rel="stylesheet" href="https://jakarta.go.id/styles/fonts.css?version=1.0.4">
+  <link rel="stylesheet" href="https://jakarta.go.id/styles/style.css?version=1.0.6">
+  <link rel="stylesheet" href="https://jakarta.go.id/styles/aspiration.css?version=1.0.8">
+  <link rel="stylesheet" href="https://jakarta.go.id/styles/small.layout.css?version=1.0.4">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://diskominfo.jogjaprov.go.id/asset/js/jquery/jquery-2.2.4.min.js"></script> 
+  <script type="text/javascript" src="https://diskominfo.jogjaprov.go.id/asset/chart/Chart.bundle.min.js"></script>
+  <script type="text/javascript" src="https://diskominfo.jogjaprov.go.id/asset/chart/Chart.min.js"></script>
+  <script src="https://diskominfo.jogjaprov.go.id/asset/chart/Chart.PieceLabel.js"></script>
+  
+<style>
+  .header-content {
+display: table;
+/* display: table-row-group; */
+padding: 20px 0;
+height: 100px;
+width: 100%;
+}
+
+
+.header .header-content > div {
+display: table-cell;
+vertical-align: middle;
+}
+
+.header .header-content-o {
+width: 728px;
+}
+  </style>
 <style>
   /* HOMEPAGE - CATEGORY SLIDER */
   #category-slider {
@@ -105,1367 +138,110 @@
     border: 2px solid #0179E9;
   }
 </style>
-  <link rel="stylesheet" href="https://jakarta.go.id/styles/fonts.css?version=1.0.4">
-  <link rel="stylesheet" href="https://jakarta.go.id/styles/style.css?version=1.0.6">
-  <link rel="stylesheet" href="https://jakarta.go.id/styles/aspiration.css?version=1.0.8">
-  <link rel="stylesheet" href="https://jakarta.go.id/styles/small.layout.css?version=1.0.4">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   
   <!-- <img referrerpolicy="no-referrer-when-downgrade" src="https://jalahoaks.jakarta.go.id/apps/matomo/matomo.php?idsite=4&amp;rec=1" style="border:0" alt="" /> -->
   <noscript><img referrerpolicy="no-referrer-when-downgrade" src="https://jalahoaks.jakarta.go.id/apps/matomo/matomo.php?idsite=4&amp;rec=1" style="border:0" alt="" /></noscript>
+ 
 </head>
 
 <body class="small-layout">
-  <section class="header-home-menu position-fixed bg-white w-100" style="z-index: 10000;">
-  <section class="container-fluid bg-white text-blue d-none d-lg-block py-2 pt-3 header-running-text">
-    <div class="row">
-      <div class="col d-none d-lg-block">
-        <a href="https://jakarta.go.id"><img height="30" class="navbar-logo-black" src="https://jakarta.go.id/images/logo-jakgo.png" alt="" style="margin-top:5px;"></a>
-      </div>
-      <div class="col-md-10 montserrat-700 f-16 text-white text-right overflow-hidden xt-right" style="padding-right:0px">
-        <!--Bersama, mari rayakan dan bangkitkan Jakarta-->
-        <style>
-          .icon-socmed {
-            color: #000;
-            font-size: 25px;
-            padding: 12px;
-            /*text-shadow: 0 0 0.09em grey;*/
-          }
+  <div  class="row" style="background: linear-gradient(90deg, rgba(63,94,251,1) 34%, rgba(70,248,252,1) 100%) !important;">   
+            
+    <div class="col-lg-4">
+            <div class="header-content-logo" > 
+                 <img src="https://diskominfo.jogjaprov.go.id/asset/img/core-img/logoB.png" data-ot-retina="https://diskominfo.jogjaprov.go.id/assets/kominfo/images/logo@2x.png" alt="" /> 
+            </div> 
+    </div> 
+    <div class="col-lg-8" > 
+            <div class="jogja-istimewa-up  text-center">  
+                <img src="https://diskominfo.jogjaprov.go.id/asset/img/core-img/jogja.png"/>  
+            </div>  
+    </div> 
+       
+    
+</div> 
+    
+      
+    
+<div class="header-area" style="background: #49a7f3 !important; width: 100%; height:5px!important">   &nbsp;  </div> 
 
-          .dropbtn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 16px;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-          }
 
-          .dropdown {
-            position: relative;
-            display: inline-block;
-          }
+<!-- Navbar Area -->
+<!-- ##### Header Area Start ##### -->
+<header class="header-area">
 
-          .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-          }
+<!-- Navbar Area -->
+<div class="mag-main-menu" id="sticker">
+    <div class="classy-nav-container breakpoint-off">
+        <!-- Menu -->
+        <nav class="classy-navbar justify-content-between" id="magNav">
 
-          .dropdown-content a {
-            color: black;
-            padding: 10px;
-            text-decoration: none;
-            display: block;
-          }
+            <!-- Nav brand -->
+            <!--<a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>-->
+            <a href="#" class="nav-brand"> </a>
 
-          .dropdown-content a:hover {
-            background-color: #f1f1f1
-          }
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+                <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
 
-          .dropdown:hover .dropdown-content {
-            display: block;
-          }
+            <!-- Nav Content -->
+            <div class="nav-content d-flex align-items-center">
+                <div class="classy-menu">
 
-          .dropdown:hover .dropbtn {
-            background-color: #3e8e41;
-          }
-        </style>
-        <div class="btn-group" role="group" aria-label="Right Navigation" style="margin-top:-5px;">
-          <a target="_blank" href="https://www.facebook.com/DKIJakarta"><i class="icon-socmed fa fa-facebook-square"></i></a>
-          <span class="btn-separator" style="background-color: #EEEEEE;"></span>
-          <!-- Instagram -->
-          <a target="_blank" href="https://www.instagram.com/dkijakarta/?hl=en"><i class="icon-socmed fa fa-instagram"></i></a>
-          <span class="btn-separator" style="background-color: #EEEEEE;"></span>
-          <!-- Twitter -->
-          <a target="_blank" href="https://twitter.com/dkijakarta"><i class="icon-socmed fa fa-twitter"></i></a>
-          <span class="btn-separator" style="background-color: #EEEEEE;"></span>
-          <!-- Youtube -->
-          <a target="_blank" href="https://www.youtube.com/dkijakarta"><i class="icon-socmed fa fa-youtube-play"></i></a>
-          <!--<span class="btn-separator" style="background-color: #EEEEEE;"></span>-->
-          <!-- Tiktok -->
-          <!--<a href="#"><i class="icon-socmed fa fa-whatsapp"></i></a>
-          <span class="btn-separator" style="background-color: #EEEEEE;"></span>
-          <a href="#"><img src="https://jakarta.gebyaronline.com/public/images/icons/tik-tok.png" style="width:22px; height:22px; margin:12px" /></a>-->
-        </div>
-      </div>
-      <div class="col d-none d-lg-block" style="padding:0px;">
-      <div class="d-flex flex-column" style="margin-left:0px; float:left; margin-top:3px;">
-                <div class="dropdown ml-auto d-flex flex-column">
-                  <div class="btn-group border border-light rounded" role="group" aria-label="Right Navigation">
-                    <div class="dropdown">
-                      <a href="https://jakarta.go.id/locale/en" class="btn btn-outline-light btn-sm border-0" style="color:#000;">
-                                                  en
-                                              </a>
+                    <!-- Close Button -->
+                    <div class="classycloseIcon">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                     </div>
-                  </div>
-                </div>
-              </div>
-      </div>
-    </div>
-    </div>
-  </section>
-  <nav class="w-100 position-fixed navbar navbar-expand-lg navbar-dark bg-black-transparent">
-    <div class="container-fluid h-100">
-      <a class="navbar-brand d-lg-none" href="https://jakarta.go.id">
-        <img height="30" class="navbar-logo-white" src="https://jakarta.go.id/images/jakgo-white.png" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse h-100 d-none d-lg-block">
-                <ul class="navbar-nav m-auto h-100">
-                    <li class="nav-item nav-item-top">
-            <a class="nav-link dropdown-toggle" href="#" >Mengenal Jakarta</a>
-                        <div class="mega-menu">
-              <div class="container-fluid">
-                <div class="row mx-0 w-100">
-                  <div class="col-4 mx-0 px-0">
-                    <ul class="with-separator">
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/tentang-jakarta" >Tentang Jakarta</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Pemerintahan</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 1)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/visi-misi">Visi &amp; Misi</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/struktur-organisasi">Struktur Organisasi</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/pemimpin-daerah">Pemimpin Daerah</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/dprd-dki-jakarta">DPRD DKI Jakarta</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                        <a href="#">Perangkat Daerah</a>
-                            <ul class="stick-menu" style="top: calc(-32px * 4)">
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/biro">Biro</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/badan">Badan</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/deputi">Deputi</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/dinas">Dinas</a>
-                                                              </li>
-                                                          </ul>
-                                                      </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kantor-pemerintah-provinsi">Kantor Pemerintah Provinsi</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/lhkpn">LHKPN</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/tgupp">TGUPP</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/jakarta-satu" >Peta Jakarta</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/jakarta-smart-city" >Jakarta Smart City</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/aplikasi-jaki" >Aplikasi JAKI</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Rencana Pembangunan</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 5)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/rpjpd">RPJPD</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/rpjmd">RPJMD</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" target="_blank">Laporan</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 6)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a target="_blank" href="https://jakarta.go.id/laporan_keuangan">Laporan Keuangan</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/laporan-penyelenggaraan-pemerintah-daerah-lppd">Laporan Penyelenggaraan Pemerintah Daerah (LPPD)</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/laporan-kinerja-instansi-pemerintah-lkip">Laporan Kinerja Instansi Pemerintah (LKIP)</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Anggaran</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 7)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/apbd">Anggaran Pendapatan dan Belanja Daerah (APBD)</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/manajemen-kinerja" >Manajemen Kinerja</a>
-                                                                      </li>
-                                          </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-                      </li>
-                    <li class="nav-item nav-item-top">
-            <a class="nav-link dropdown-toggle" href="#" >Informasi dan Layanan</a>
-                        <div class="mega-menu">
-              <div class="container-fluid">
-                <div class="row mx-0 w-100">
-                  <div class="col-4 mx-0 px-0">
-                    <ul class="with-separator">
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Masuk ke Jakarta</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 0)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/menuju-jakarta">Menuju Jakarta</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/visa">Visa</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/penukaran-mata-uang">Penukaran Mata Uang</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Hidup di Jakarta</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 1)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/rumah-susun">Rumah Susun</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/hunian-dp-0-rupiah">Hunian DP 0 Rupiah</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kampung-prioritas">Kampung Prioritas</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kampung-deret">Kampung Deret</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/cap-cip">CAP &amp; CIP</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Transportasi</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 2)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/jaklingko">Jaklingko</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/mrt">MRT</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/lrt">LRT</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/transjakarta">Transjakarta</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/railink">Railink</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/commuter-line">Commuter Line</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/bus-sekolah">Bus Sekolah</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/bus-wisata-jakarta">Bus Wisata Jakarta</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/informasi-trayek">Informasi Trayek</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/pelanggaran-parkir">Pelanggaran Parkir</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Bisnis &amp; Investasi</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 3)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/dmptsp">DPMPTSP</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/retribusi">Retribusi</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/bumd">BUMD</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/insentif">Insentif</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/statistik">Statistik</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/lpse">LPSE</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Layanan Kependudukan</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 4)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kartu-tanda-penduduk">Kartu Tanda Penduduk</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kartu-keluarga">Kartu Keluarga</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/akta-kelahiran">Akta Kelahiran</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/akta-kematian">Akta Kematian</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/akta-perceraian">Akta Perceraian</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/akta-perkawinan">Akta Perkawinan</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Layanan Daring</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 5)">
-                                                    <li class="mega-menu-item pl-4">
-                                                        <a href="#">Pelayanan Terpadu</a>
-                            <ul class="stick-menu" style="top: calc(-32px * 0)">
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/pemakaman">Pemakaman</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/penggunaan-taman">Penggunaan Taman</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/perizinan-bangunan">Perizinan Bangunan</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/surat-izin-praktik">Surat Izin Praktik</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/pelayanan-dan-perizinan-lainnya">Pelayanan dan Perizinan Lainnya</a>
-                                                              </li>
-                                                          </ul>
-                                                      </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/e-samsat">E-Samsat</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/jakwifi">JakWifi</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/imigrasi">Imigrasi</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/alpukat-betawi">Alpukat Betawi</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/pelayanan-pajak-daring">Pelayanan Pajak Daring</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Kesehatan</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 6)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/rumah-sakit">Rumah Sakit</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/puskesmas">Puskesmas</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kartu-jakarta-sehat">Kartu Jakarta Sehat</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/ketuk-pintu-layani-dengan-hati">Ketuk Pintu Layani dengan Hati</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/ambulans-gawat-darurat">Ambulans Gawat Darurat</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/dasbor-ketersediaan-tempat-tidur-jakarta">Dasbor ketersediaan Tempat Tidur Jakarta</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                        <a href="#">Olahraga</a>
-                            <ul class="stick-menu" style="top: calc(-32px * 6)">
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/kompleks-gelora-bung-karno">Kompleks Gelora Bung Karno</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/jakarta-international-velodrome">Jakarta International Velodrome</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/jakarta-equestrian-park">Jakarta Equestrian Park</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/gelanggang-olahraga-remaja">Gelanggang Olahraga Remaja</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/permintaan-alat-olahraga">Permintaan Alat Olahraga</a>
-                                                              </li>
-                                                          </ul>
-                                                      </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Pendidikan</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 7)">
-                                                    <li class="mega-menu-item pl-4">
-                                                        <a href="#">Fasilitas Pendidikan</a>
-                            <ul class="stick-menu" style="top: calc(-32px * 0)">
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/sekolah-dasar">Sekolah Dasar</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/sekolah-menengah-pertama">Sekolah Menengah Pertama</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/sekolah-menengah-atas">Sekolah Menengah Atas</a>
-                                                              </li>
-                                                          </ul>
-                                                      </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/pembelajaran-jarak-jauh-pjj">Pembelajaran Jarak Jauh (PJJ)</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kjp-plus">KJP Plus</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kjmu">KJMU</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/ppdb-online">PPDB Online</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/perpustakaan-di-jakarta">Perpustakaan di Jakarta</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/perpustakaan-nasional">Perpustakaan Nasional</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Keamanan &amp; Ketahanan</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 8)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/jakarta-siaga-112">Jakarta Siaga 112</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/jakarta-aman">Jakarta Aman</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/jakarta-tanggap-covid-19">Jakarta Tanggap Covid-19</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/pantau-banjir">Pantau Banjir</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kebakaran">Kebakaran</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                        <a href="#">Hukum</a>
-                            <ul class="stick-menu" style="top: calc(-32px * 5)">
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/produk-hukum">Produk Hukum</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/non-produk-hukum">Non Produk Hukum</a>
-                                                              </li>
-                                                          </ul>
-                                                      </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Karir</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 9)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/lowongan-kerja">Lowongan Kerja</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/asuransi-pekerja">Asuransi Pekerja</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/tenaga-kerja">Tenaga Kerja</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Sosial &amp; Kesejahteraan</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 10)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kpj">KPJ</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kpdj">KPDJ</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/klj">KLJ</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kartu-bantuan-sosial">Kartu Bantuan Sosial</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kartu-anak-jakarta">Kartu Anak Jakarta</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/program-keluarga-harapan-pkh">Program Keluarga Harapan (PKH)</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                        <a href="#">Berdaya Bersama</a>
-                            <ul class="stick-menu" style="top: calc(-32px * 6)">
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/pkk">PKK</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/jakpreneur">Jakpreneur</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/carik-jakarta">Carik Jakarta</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/jumantik">Jumantik</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/karang-taruna">Karang Taruna</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/jakarta-creative-hub">Jakarta Creative Hub</a>
-                                                              </li>
-                                                          </ul>
-                                                      </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Lingkungan &amp; Energi</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 11)">
-                                                    <li class="mega-menu-item pl-4">
-                                                        <a href="#">Jakarta Langit Biru</a>
-                            <ul class="stick-menu" style="top: calc(-32px * 0)">
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/ganjil-genap">Ganjil Genap</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/hari-bebas-kendaraan-bermotor">Hari Bebas Kendaraan Bermotor</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/jakispu">JakISPU</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/euji-emisi">e-Uji Emisi</a>
-                                                              </li>
-                                                          </ul>
-                                                      </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                        <a href="#">Ruang Terbuka Hijau</a>
-                            <ul class="stick-menu" style="top: calc(-32px * 1)">
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/jalur-sepeda-di-jakarta">Jalur Sepeda di Jakarta</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/rptra">RPTRA</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/taman-maju-bersama">Taman Maju Bersama</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/hutan-kota">Hutan Kota</a>
-                                                              </li>
-                                                          </ul>
-                                                      </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/kebijakan-bangunan-hijau">Kebijakan Bangunan Hijau</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                        <a href="#">Pengolahan Sampah</a>
-                            <ul class="stick-menu" style="top: calc(-32px * 3)">
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/bank-sampah">Bank Sampah</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/program-samtama">Program Samtama</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/intermediate-treatment-facility">Intermediate Treatment Facility</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/e-waste">Limbah Elektronik</a>
-                                                              </li>
-                                                          </ul>
-                                                      </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                        <a href="#">Lainnya</a>
-                            <ul class="stick-menu" style="top: calc(-32px * 4)">
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/kebijakan-jakarta-bebas-kantong-plastik">Kebijakan Jakarta Bebas Kantong Plastik</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/pembebasan-pajak-kendaraan-listrik">Pembebasan Pajak Kendaraan Listrik</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/biopori-dan-drainase-vertikal">Biopori dan Drainase Vertikal</a>
-                                                              </li>
-                                                            <li class="mega-menu-item pl-4">
-                                                                <a  href="https://jakarta.go.id/layanan-laboratorium-lingkungan-hidup">Layanan Laboratorium Lingkungan Hidup</a>
-                                                              </li>
-                                                          </ul>
-                                                      </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Pengaduan Warga</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 12)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/cepat-respon-masyarakat">Cepat Respon Masyarakat</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/14-kanal-pengaduan-balai-warga">14 Kanal Pengaduan</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                            <li class="mega-menu-item pl-4">
-                                                <a href="#" >Kolaborasi</a>
-                        <ul class="stick-menu with-separator" style="top: calc(-32px * 13)">
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/informasi-kolaborasi">Informasi Kolaborasi</a>
-                                                                                  </li>
-                                                    <li class="mega-menu-item pl-4">
-                                                                                    <a  href="https://jakarta.go.id/ikut-kolaborasi">Ikut Kolaborasi</a>
-                                                                                  </li>
-                                                  </ul>
-                                              </li>
-                                          </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-                      </li>
-                    <li class="nav-item nav-item-top">
-            <a class="nav-link dropdown-toggle" href="#" >Jelajah Jakarta</a>
-                        <div class="mega-menu">
-              <div class="container-fluid">
-                <div class="row mx-0 w-100">
-                  <div class="col-4 mx-0 px-0">
-                    <ul class="with-separator">
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/akomodasi" >Akomodasi</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/pusat-perbelanjaan" >Pusat Perbelanjaan</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/pusat-kebudayaan-jakarta" >Pusat Kebudayaan Jakarta</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/museum" >Museum</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/galeri" >Galeri</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/wisata-kuliner-jakarta" >Wisata Kuliner</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/wisata-bersejarah" >Wisata Bersejarah</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/kepulauan-seribu" >Wisata Kepulauan Seribu</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/taman-rekreasi-dan-taman-bermain" >Tempat Rekreasi dan Taman Bermain</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/taman-kota" >Taman Kota</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/acara-dan-hiburan" >Hiburan</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/kelender-event" >Kelender Event</a>
-                                                                      </li>
-                                          </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-                      </li>
-                    <li class="nav-item nav-item-top">
-            <a class="nav-link dropdown-toggle" href="#" >Media</a>
-                        <div class="mega-menu">
-              <div class="container-fluid">
-                <div class="row mx-0 w-100">
-                  <div class="col-4 mx-0 px-0">
-                    <ul class="with-separator">
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/ppid" >PPID</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/open-data" >Open Data Jakarta</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/berita-jakarta" >Berita Jakarta</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://ppid.jakarta.go.id/daftar-informasi-publik" >Siaran Pers</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://ppid.jakarta.go.id/media-jaya" >Media Jaya</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://jakarta.go.id/infografis" >Infografik</a>
-                                                                      </li>
-                                            <li class="mega-menu-item pl-4">
-                                                                        <a href="https://encyclopedia.jakarta-tourism.go.id/" >Ensiklopedia</a>
-                                                                      </li>
-                                          </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-                      </li>
-                    <!--<li class="nav-item" style="margin-left:100px;">
-            <button type="button" class="btn btn-outline-light btn-sm border-0 f-20 text-blue" style="height:40px; background:#fff; margin-top:5px;" data-toggle="modal" data-target="#searchModal">
-              <i class="fa fa-search" aria-hidden="true"></i>
-            </button>
-          </li>-->
-        </ul>
-              </div>
 
-      <div class="collapse navbar-collapse d-lg-none mt-3 menu-scrollable" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-            <a data-toggle="dropdown" id="parentdropdown-1" class="nav-link dropdown-toggle"  href="#">Mengenal Jakarta</a>
-                        <ul class="dropdown-menu" aria-labelledby="parentdropdown-1">
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/tentang-jakarta">Tentang Jakarta</a>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Pemerintahan</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-2">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/visi-misi">Visi &amp; Misi</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/struktur-organisasi">Struktur Organisasi</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/pemimpin-daerah">Pemimpin Daerah</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/dprd-dki-jakarta">DPRD DKI Jakarta</a>
-                                      </li>
-                                    <li>
-                                        <a data-toggle="dropdown" class="ml-4 dropdown-item dropdown-toggle"  href="#">Perangkat Daerah</a>
-                    <ul class="dropdown-menu" aria-labelledby="seconddropdown-4">
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/biro">Biro</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/badan">Badan</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/deputi">Deputi</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/dinas">Dinas</a>
-                      </li>
-                                          </ul>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kantor-pemerintah-provinsi">Kantor Pemerintah Provinsi</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/lhkpn">LHKPN</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/tgupp">TGUPP</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/jakarta-satu">Peta Jakarta</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/jakarta-smart-city">Jakarta Smart City</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/aplikasi-jaki">Aplikasi JAKI</a>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Rencana Pembangunan</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-14">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/rpjpd">RPJPD</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/rpjmd">RPJMD</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle" target="_blank" href="#">Laporan</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-201">
-                                    <li>
-                                        <a class="ml-4 dropdown-item" target="_blank" href="https://jakarta.go.id/laporan_keuangan">Laporan Keuangan</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/laporan-penyelenggaraan-pemerintah-daerah-lppd">Laporan Penyelenggaraan Pemerintah Daerah (LPPD)</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/laporan-kinerja-instansi-pemerintah-lkip">Laporan Kinerja Instansi Pemerintah (LKIP)</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Anggaran</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-233">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/apbd">Anggaran Pendapatan dan Belanja Daerah (APBD)</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/manajemen-kinerja">Manajemen Kinerja</a>
-                              </li>
-                          </ul>
-                      </li>
-                    <li class="nav-item">
-            <a data-toggle="dropdown" id="parentdropdown-68" class="nav-link dropdown-toggle"  href="#">Informasi dan Layanan</a>
-                        <ul class="dropdown-menu" aria-labelledby="parentdropdown-68">
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Masuk ke Jakarta</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-251">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/menuju-jakarta">Menuju Jakarta</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/visa">Visa</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/penukaran-mata-uang">Penukaran Mata Uang</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Hidup di Jakarta</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-156">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/rumah-susun">Rumah Susun</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/hunian-dp-0-rupiah">Hunian DP 0 Rupiah</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kampung-prioritas">Kampung Prioritas</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kampung-deret">Kampung Deret</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/cap-cip">CAP &amp; CIP</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Transportasi</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-138">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/jaklingko">Jaklingko</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/mrt">MRT</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/lrt">LRT</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/transjakarta">Transjakarta</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/railink">Railink</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/commuter-line">Commuter Line</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/bus-sekolah">Bus Sekolah</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/bus-wisata-jakarta">Bus Wisata Jakarta</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/informasi-trayek">Informasi Trayek</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/pelanggaran-parkir">Pelanggaran Parkir</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Bisnis &amp; Investasi</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-88">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/dmptsp">DPMPTSP</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/retribusi">Retribusi</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/bumd">BUMD</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/insentif">Insentif</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/statistik">Statistik</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/lpse">LPSE</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Layanan Kependudukan</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-69">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kartu-tanda-penduduk">Kartu Tanda Penduduk</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kartu-keluarga">Kartu Keluarga</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/akta-kelahiran">Akta Kelahiran</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/akta-kematian">Akta Kematian</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/akta-perceraian">Akta Perceraian</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/akta-perkawinan">Akta Perkawinan</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Layanan Daring</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-76">
-                                    <li>
-                                        <a data-toggle="dropdown" class="ml-4 dropdown-item dropdown-toggle"  href="#">Pelayanan Terpadu</a>
-                    <ul class="dropdown-menu" aria-labelledby="seconddropdown-77">
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/pemakaman">Pemakaman</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/penggunaan-taman">Penggunaan Taman</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/perizinan-bangunan">Perizinan Bangunan</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/surat-izin-praktik">Surat Izin Praktik</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/pelayanan-dan-perizinan-lainnya">Pelayanan dan Perizinan Lainnya</a>
-                      </li>
-                                          </ul>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/e-samsat">E-Samsat</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/jakwifi">JakWifi</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/imigrasi">Imigrasi</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/alpukat-betawi">Alpukat Betawi</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/pelayanan-pajak-daring">Pelayanan Pajak Daring</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Kesehatan</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-95">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/rumah-sakit">Rumah Sakit</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/puskesmas">Puskesmas</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kartu-jakarta-sehat">Kartu Jakarta Sehat</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/ketuk-pintu-layani-dengan-hati">Ketuk Pintu Layani dengan Hati</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/ambulans-gawat-darurat">Ambulans Gawat Darurat</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/dasbor-ketersediaan-tempat-tidur-jakarta">Dasbor ketersediaan Tempat Tidur Jakarta</a>
-                                      </li>
-                                    <li>
-                                        <a data-toggle="dropdown" class="ml-4 dropdown-item dropdown-toggle"  href="#">Olahraga</a>
-                    <ul class="dropdown-menu" aria-labelledby="seconddropdown-133">
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/kompleks-gelora-bung-karno">Kompleks Gelora Bung Karno</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/jakarta-international-velodrome">Jakarta International Velodrome</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/jakarta-equestrian-park">Jakarta Equestrian Park</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/gelanggang-olahraga-remaja">Gelanggang Olahraga Remaja</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/permintaan-alat-olahraga">Permintaan Alat Olahraga</a>
-                      </li>
-                                          </ul>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Pendidikan</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-101">
-                                    <li>
-                                        <a data-toggle="dropdown" class="ml-4 dropdown-item dropdown-toggle"  href="#">Fasilitas Pendidikan</a>
-                    <ul class="dropdown-menu" aria-labelledby="seconddropdown-102">
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/sekolah-dasar">Sekolah Dasar</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/sekolah-menengah-pertama">Sekolah Menengah Pertama</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/sekolah-menengah-atas">Sekolah Menengah Atas</a>
-                      </li>
-                                          </ul>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/pembelajaran-jarak-jauh-pjj">Pembelajaran Jarak Jauh (PJJ)</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kjp-plus">KJP Plus</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kjmu">KJMU</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/ppdb-online">PPDB Online</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/perpustakaan-di-jakarta">Perpustakaan di Jakarta</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/perpustakaan-nasional">Perpustakaan Nasional</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Keamanan &amp; Ketahanan</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-169">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/jakarta-siaga-112">Jakarta Siaga 112</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/jakarta-aman">Jakarta Aman</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/jakarta-tanggap-covid-19">Jakarta Tanggap Covid-19</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/pantau-banjir">Pantau Banjir</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kebakaran">Kebakaran</a>
-                                      </li>
-                                    <li>
-                                        <a data-toggle="dropdown" class="ml-4 dropdown-item dropdown-toggle"  href="#">Hukum</a>
-                    <ul class="dropdown-menu" aria-labelledby="seconddropdown-153">
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/produk-hukum">Produk Hukum</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/non-produk-hukum">Non Produk Hukum</a>
-                      </li>
-                                          </ul>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Karir</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-254">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/lowongan-kerja">Lowongan Kerja</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/asuransi-pekerja">Asuransi Pekerja</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/tenaga-kerja">Tenaga Kerja</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Sosial &amp; Kesejahteraan</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-148">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kpj">KPJ</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kpdj">KPDJ</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/klj">KLJ</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kartu-bantuan-sosial">Kartu Bantuan Sosial</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kartu-anak-jakarta">Kartu Anak Jakarta</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/program-keluarga-harapan-pkh">Program Keluarga Harapan (PKH)</a>
-                                      </li>
-                                    <li>
-                                        <a data-toggle="dropdown" class="ml-4 dropdown-item dropdown-toggle"  href="#">Berdaya Bersama</a>
-                    <ul class="dropdown-menu" aria-labelledby="seconddropdown-162">
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/pkk">PKK</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/jakpreneur">Jakpreneur</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/carik-jakarta">Carik Jakarta</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/jumantik">Jumantik</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/karang-taruna">Karang Taruna</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/jakarta-creative-hub">Jakarta Creative Hub</a>
-                      </li>
-                                          </ul>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Lingkungan &amp; Energi</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-112">
-                                    <li>
-                                        <a data-toggle="dropdown" class="ml-4 dropdown-item dropdown-toggle"  href="#">Jakarta Langit Biru</a>
-                    <ul class="dropdown-menu" aria-labelledby="seconddropdown-113">
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/ganjil-genap">Ganjil Genap</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/hari-bebas-kendaraan-bermotor">Hari Bebas Kendaraan Bermotor</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/jakispu">JakISPU</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/euji-emisi">e-Uji Emisi</a>
-                      </li>
-                                          </ul>
-                                      </li>
-                                    <li>
-                                        <a data-toggle="dropdown" class="ml-4 dropdown-item dropdown-toggle"  href="#">Ruang Terbuka Hijau</a>
-                    <ul class="dropdown-menu" aria-labelledby="seconddropdown-118">
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/jalur-sepeda-di-jakarta">Jalur Sepeda di Jakarta</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/rptra">RPTRA</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/taman-maju-bersama">Taman Maju Bersama</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/hutan-kota">Hutan Kota</a>
-                      </li>
-                                          </ul>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/kebijakan-bangunan-hijau">Kebijakan Bangunan Hijau</a>
-                                      </li>
-                                    <li>
-                                        <a data-toggle="dropdown" class="ml-4 dropdown-item dropdown-toggle"  href="#">Pengolahan Sampah</a>
-                    <ul class="dropdown-menu" aria-labelledby="seconddropdown-124">
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/bank-sampah">Bank Sampah</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/program-samtama">Program Samtama</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/intermediate-treatment-facility">Intermediate Treatment Facility</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/e-waste">Limbah Elektronik</a>
-                      </li>
-                                          </ul>
-                                      </li>
-                                    <li>
-                                        <a data-toggle="dropdown" class="ml-4 dropdown-item dropdown-toggle"  href="#">Lainnya</a>
-                    <ul class="dropdown-menu" aria-labelledby="seconddropdown-129">
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/kebijakan-jakarta-bebas-kantong-plastik">Kebijakan Jakarta Bebas Kantong Plastik</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/pembebasan-pajak-kendaraan-listrik">Pembebasan Pajak Kendaraan Listrik</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/biopori-dan-drainase-vertikal">Biopori dan Drainase Vertikal</a>
-                      </li>
-                                            <li>
-                        <a class="dropdown-item ml-5"  href="https://jakarta.go.id/layanan-laboratorium-lingkungan-hidup">Layanan Laboratorium Lingkungan Hidup</a>
-                      </li>
-                                          </ul>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Pengaduan Warga</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-85">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/cepat-respon-masyarakat">Cepat Respon Masyarakat</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/14-kanal-pengaduan-balai-warga">14 Kanal Pengaduan</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                            <li>
-                                <a data-toggle="dropdown" class="dropdown-item dropdown-toggle"  href="#">Kolaborasi</a>
-                <ul class="dropdown-menu" aria-labelledby="firstdropdown-186">
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/informasi-kolaborasi">Informasi Kolaborasi</a>
-                                      </li>
-                                    <li>
-                                        <a class="ml-4 dropdown-item"  href="https://jakarta.go.id/ikut-kolaborasi">Ikut Kolaborasi</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                          </ul>
-                      </li>
-                    <li class="nav-item">
-            <a data-toggle="dropdown" id="parentdropdown-174" class="nav-link dropdown-toggle"  href="#">Jelajah Jakarta</a>
-                        <ul class="dropdown-menu" aria-labelledby="parentdropdown-174">
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/akomodasi">Akomodasi</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/pusat-perbelanjaan">Pusat Perbelanjaan</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/pusat-kebudayaan-jakarta">Pusat Kebudayaan Jakarta</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/museum">Museum</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/galeri">Galeri</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/wisata-kuliner-jakarta">Wisata Kuliner</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/wisata-bersejarah">Wisata Bersejarah</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/kepulauan-seribu">Wisata Kepulauan Seribu</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/taman-rekreasi-dan-taman-bermain">Tempat Rekreasi dan Taman Bermain</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/taman-kota">Taman Kota</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/acara-dan-hiburan">Hiburan</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/kelender-event">Kelender Event</a>
-                              </li>
-                          </ul>
-                      </li>
-                    <li class="nav-item">
-            <a data-toggle="dropdown" id="parentdropdown-189" class="nav-link dropdown-toggle"  href="#">Media</a>
-                        <ul class="dropdown-menu" aria-labelledby="parentdropdown-189">
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/ppid">PPID</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/open-data">Open Data Jakarta</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/berita-jakarta">Berita Jakarta</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://ppid.jakarta.go.id/daftar-informasi-publik">Siaran Pers</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://ppid.jakarta.go.id/media-jaya">Media Jaya</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://jakarta.go.id/infografis">Infografik</a>
-                              </li>
-                            <li>
-                                <a class="dropdown-item"  href="https://encyclopedia.jakarta-tourism.go.id/">Ensiklopedia</a>
-                              </li>
-                          </ul>
-                      </li>
-                    <li class="nav-item">
-            <div class="d-flex flex-column">
-              <div class="dropdown ml-auto d-flex flex-column">
-                <div class="btn-group border border-light rounded" role="group" aria-label="Right Navigation">
-                  <div class="dropdown">
-                    <a href="https://jakarta.go.id/locale/en" class="btn btn-outline-light btn-sm border-0">
-                                            <img src="https://jakarta.go.id/images/icons/uk.png" role="presentation">
-                                          </a>
-                  </div>
-                  <span class="btn-separator"></span>
-                  <div>
-                    <button type="button" class="btn btn-outline-light btn-sm border-0" data-toggle="modal" data-target="#searchModal">
-                      <img src="https://jakarta.go.id/images/icons/magnifier.png" />
-                    </button>
-                  </div>
+                          
+                    <!-- Nav Start -->
+                     
+                               
+
+<!-- Nav Start -->
+<div class="classynav">
+<ul>
+
+
+
+<li><a href="https://diskominfo.jogjaprov.go.id//">BERANDA</a></li><li><a href="https://diskominfo.jogjaprov.go.id/">PROFIL</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/visi-misi">Visi & Misi</a></li><li><a href="https://diskominfo.jogjaprov.go.id/tugas-dan-fungsi">Tugas dan Fungsi</a></li><li><a href="https://diskominfo.jogjaprov.go.id/profil-dinas">Profil Badan Publik</a></li><li><a href="https://diskominfo.jogjaprov.go.id/unit-kerja">Gambaran Umum Unit Kerja</a></li><li><a href="https://diskominfo.jogjaprov.go.id/struktur-organisasi-2022">Struktur Organisasi</a></li><li><a href="https://diskominfo.jogjaprov.go.id/profil-pejabat">Profil Pejabat</a></li><li><a href="https://diskominfo.jogjaprov.go.id/kedudukan-domisili-dan-alamat ">Kedudukan, Domisili dan Alamat</a></li><li><a href="https://diskominfo.jogjaprov.go.id/sejarah-dinas">Sejarah Dinas</a></li><li><a href="https://diskominfo.jogjaprov.go.id/lhkpn">LHKPN Pejabat</a></li><li><a href="https://diskominfo.jogjaprov.go.id/budaya-pemerintahan-satriya">Budaya Pemerintahan "SATRIYA"</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/program-kegiatan">PROGRAM & KEGIATAN</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/program-kegiatan-2016">Tahun Anggaran 2016</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/file/kategori/perencanaan-2016">Dokumen Perencanaan 2016</a></li><li><a href="https://diskominfo.jogjaprov.go.id/laporan-kinerja-ta-2016">Laporan Kinerja 2016</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/#">Tahun Anggaran 2017</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id//file/kategori/perencanaan-2017">Dokumen Perencanaan 2017</a></li><li><a href="https://diskominfo.jogjaprov.go.id/jadwal-pelaksanaan-program-kegiatan-ta-2017">Jadwal Pelaksanaan Kegiatan 2017</a></li><li><a href="https://diskominfo.jogjaprov.go.id/http://diskominfo.jogjaprov.go.id/program-kegiatan-2017">Anggaran Program/Keg 2017</a></li><li><a href="https://diskominfo.jogjaprov.go.id/laporan-kinerja-ta-2017">Laporan Kinerja 2017</a></li><li><a href="https://diskominfo.jogjaprov.go.id/laporan-keuangan-ta-2017">Laporan Keuangan 2017</a></li><li><a href="https://diskominfo.jogjaprov.go.id/">Laporan Realisasi 2017</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2017-tw-1">Realisasi Triwulan 1</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2017-tw-2">Realisasi Triwulan 2</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2017-tw-3">Realisasi Triwulan 3</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2017-tw-4">Realisasi Triwulan 4</a></li></ul></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/#">Tahun Anggaran 2018</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id//file/kategori/perencanaan-2018">Dokumen Perencanaan 2018</a></li><li><a href="https://diskominfo.jogjaprov.go.id/jadwal-pelaksanaan-program-kegiatan-ta-2018">Jadwal Pelaksanaan Kegiatan 2018</a></li><li><a href="https://diskominfo.jogjaprov.go.id/http://diskominfo.jogjaprov.go.id/program-kegiatan-2018">Anggaran Program/Keg 2018</a></li><li><a href="https://diskominfo.jogjaprov.go.id/laporan-kinerja-ta-2018">Laporan Kinerja 2018</a></li><li><a href="https://diskominfo.jogjaprov.go.id//laporan-keuangan-ta-2018">Laporan Keuangan 2018</a></li><li><a href="https://diskominfo.jogjaprov.go.id/">Laporan Realisasi 2018</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2018-tw-1">Realisasi Triwulan 1</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2018-tw-2">Realisasi Triwulan 2</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2018-tw-3">Realisasi Triwulan 3</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2018-tw-4">Realisasi Triwulan 4</a></li></ul></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/#">Tahun Anggaran 2019</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/file/kategori/perencanaan-2019">Dokumen Perencanaan 2019</a></li><li><a href="https://diskominfo.jogjaprov.go.id/program-kegiatan-2019">Anggaran Program/Keg 2019</a></li><li><a href="https://diskominfo.jogjaprov.go.id/jadwal-pelaksanaan-program-kegiatan-ta-2019">Jadwal Pelaksanaan Kegiatan 2019</a></li><li><a href="https://diskominfo.jogjaprov.go.id/laporan-kinerja-ta-2019">Laporan Kinerja TA 2019</a></li><li><a href="https://diskominfo.jogjaprov.go.id/laporan-keuangan-ta-2019">Laporan Keuangan TA 2019</a></li><li><a href="https://diskominfo.jogjaprov.go.id/">Laporan Realisasi 2019</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2019-tw-1">Realisasi Triwulan 1</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2019-tw-2">Realisasi Triwulan 2</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2019-tw-3">Realisasi Triwulan 3</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2019-tw-4">Realisasi Triwulan 4</a></li></ul></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/#">Tahun Anggaran 2020</a><ul class="dropdown"><li><a href="">Dokumen Perencanaan 2020</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/file/detail/rencana-kerja-2020">Rencana Kerja 2020</a></li><li><a href="https://diskominfo.jogjaprov.go.id/rencana-kerja-perubahan-2020">Rencana Kerja Perubahan 2020</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/jadwal-pelaksanaan-program-kegiatan-ta-2020">Jadwal Pelaksanaan Kegiatan 2020</a></li><li><a href="https://diskominfo.jogjaprov.go.id/laporan-kinerja-ta-2020">Laporan Kinerja TA 2020</a></li><li><a href="https://diskominfo.jogjaprov.go.id/program-kegiatan-2020">Anggaran Program/Keg 2020</a></li><li><a href="laporan-keuangan-ta-2020">Laporan Keuangan TA 2020</a></li><li><a href="https://diskominfo.jogjaprov.go.id/">Laporan Realisasi 2020</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2020-tw-1">Realisasi Triwulan 1</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2020-tw-2">Realisasi Triwulan 2</a></li><li><a href="realisasi-program-kegiatan-2020-tw-3">Realisasi Triwulan 3</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2020-tw-4">Realisasi Triwulan 4</a></li></ul></li></ul></li><li><a href="">Tahun Anggaran 2021</a><ul class="dropdown"><li><a href="rencana-kerja-2021">Dokumen Perencanaan 2021</a><ul class="dropdown"><li><a href="rancangan-awal-renja-2021">Rancangan Awal Renja 2021</a></li><li><a href="rancangan-rencana-kerja-2021">Rancangan Rencana Kerja 2021</a></li><li><a href="renja-perubahan-tahun-2021">Renja Perubahan Tahun 2021</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/jadwal-pelaksanaan-program-kegiatan-ta-2021">Jadwal Pelaksanaan Kegiatan 2021</a></li><li><a href="https://diskominfo.jogjaprov.go.id/program-kegiatan-2021">Anggaran Program/Keg 2021</a></li><li><a href="https://diskominfo.jogjaprov.go.id/laporan-kinerja-ta-2021">Laporan Kinerja 2021</a></li><li><a href="https://diskominfo.jogjaprov.go.id/laporan-keuangan-ta-2021">Realisasi Keuangan TA 2021</a></li><li><a href="">Laporan Realisasi 2021</a><ul class="dropdown"><li><a href="realisasi-program-kegiatan-2021-tw-1">Realisasi Triwulan 1</a></li><li><a href="realisasi-program-kegiatan-2021-tw-ii">Realisasi Triwulan 2</a></li><li><a href="realisasi-program-kegiatan-2021-tw-iii">Realisasi Triwulan 3</a></li><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2021-tw-iv">Realisasi Triwulan 4</a></li></ul></li></ul></li><li><a href="#">Tahun Anggaran 2022</a><ul class="dropdown"><li><a href="">Dokumen Perencanaan 2022</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/rancangan-awal-renja-2022">Rancangan Awal Renja 2022</a></li><li><a href="rancangan-rencana-kerja-2022">Rancangan Rencana Kerja 2022</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/jadwal-pelaksanaan-program-kegiatan-ta-2022">Jadwal Pelaksanaan Kegiatan 2022</a></li><li><a href="https://diskominfo.jogjaprov.go.id/program-kegiatan-2022">Anggaran Program/Keg 2022</a></li><li><a href="">Laporan Realisasi 2022</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/realisasi-program-kegiatan-2022-tw-i">Realisasi Triwulan 1</a></li></ul></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id//file/kategori/renstra">Dokumen Renstra</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/#">INFORMASI</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id//informasi-publik">Informasi Publik</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id//informasi-berkala">Diumumkan Berkala</a></li><li><a href="https://diskominfo.jogjaprov.go.id//informasi-setiap-saat">Tersedia Setiap Saat</a></li><li><a href="https://diskominfo.jogjaprov.go.id//informasi-serta-merta">Diumumkan Serta Merta</a></li><li><a href="https://diskominfo.jogjaprov.go.id//file/kategori/daftar-informasi-publik">Daftar Informasi Publik DIP-DIK</a></li><li><a href="https://diskominfo.jogjaprov.go.id/prosedur-kebencanaan">Prosedur Darurat Kebencanaan</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/#">Layanan Informasi Publik</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/dasar-hukum">Dasar Hukum Layanan Informasi</a></li><li><a href="https://diskominfo.jogjaprov.go.id/standar-layanan-publik">Standar Layanan Publik</a></li><li><a href="https://diskominfo.jogjaprov.go.id/organisasi-pengelola-informasi">Organisasi Pengelola Informasi </a></li><li><a href="https://diskominfo.jogjaprov.go.id/maklumat-pelayanan">Maklumat Pelayanan</a></li><li><a href="https://diskominfo.jogjaprov.go.id/alur-permohonan-informasi">Alur Permohonan Informasi</a></li><li><a href="https://diskominfo.jogjaprov.go.id/cara-memperoleh-informasi">Tata Cara Memperoleh Informasi</a></li><li><a href="https://diskominfo.jogjaprov.go.id/cara-pengajuan-keberatan">Tata Cara Pengajuan Keberatan 	</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/">Laporan Layanan Informasi Publik</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/">Tahun 2017</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/laporan-layanan-informasi-publik-ta-2017">Laporan Layanan Informasi Publik</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/">Tahun 2018</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/laporan-layanan-informasi-publik-ta-2018">Laporan Layanan Informasi Publik</a></li><li><a href="https://diskominfo.jogjaprov.go.id/akses-informasi-publik-2018">Akses Informasi Publik 2018</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/">Tahun 2019</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/laporan-layanan-informasi-publik-ta-2019 ">Laporan Layanan Informasi Publik</a></li><li><a href="https://diskominfo.jogjaprov.go.id/akses-informasi-publik-2019">Akses Informasi Publik 2019</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/">Tahun 2021</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/laporan-layanan-informasi-publik-ta-2021">Laporan Layanan Informasi Publik</a></li><li><a href="https://diskominfo.jogjaprov.go.id/akses-informasi-publik-2021">Akses Informasi Tahun 2021</a></li></ul></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/#">Saluran Pengaduan</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/pengaduan-pelaksanaan-kegiatan">Pelaksanaan kegiatan</a></li><li><a href="https://diskominfo.jogjaprov.go.id/pengaduan-penyalahgunaan-wewenang">Penyalahgunaan Wewenang</a></li><li><a href="https://lapor.jogjaprov.go.id/">Melalui E-Lapor DIY</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/pengadaan-barang-dan-jasa">Pengadaan Barang/Jasa</a></li><li><a href="https://diskominfo.jogjaprov.go.id/produk-hukum">Produk Hukum</a></li><li><a href="https://diskominfo.jogjaprov.go.id/file/kategori">Unduhan</a></li><li><a href="https://diskominfo.jogjaprov.go.id/agenda-pimpinan">Agenda Pimpinan</a></li><li><a href="https://diskominfo.jogjaprov.go.id/file/kategori/aset">Aset Dinas</a></li><li><a href="https://diskominfo.jogjaprov.go.id/data-statistik-bidang-komunikasi-dan-informatika-diy ">Data Statistik Bidang Kominfo</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/berita">BERITA</a></li><li><a href="https://diskominfo.jogjaprov.go.id/galeri">GALERI</a><ul class="dropdown"><li><a href="https://diskominfo.jogjaprov.go.id/video">Video</a></li><li><a href="https://diskominfo.jogjaprov.go.id/gallery">Foto</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/#">LAYANAN</a><ul class="dropdown"><li><a href="/layanan/lihat/ppid-diy">PPID UTAMA</a></li><li><a href="https://diskominfo.jogjaprov.go.id/layanan/lihat/rekomendasi-investasi-tik">Rekomendasi Investasi TIK</a></li><li><a href="https://diskominfo.jogjaprov.go.id//layanan/lihat/sub-domain-dan-hosting-instansi">Subdomain dan Hosting</a></li><li><a href="/layanan/lihat/mail-pemda">Email Pemda DIY</a></li><li><a href="https://diskominfo.jogjaprov.go.id/layanan/lihat/tanda-tangan-elektronik">Tanda Tangan Elektronik</a></li><li><a href="https://diskominfo.jogjaprov.go.id/layanan/lihat/fasilitasi-video-conference">Fasilitas Video Conference</a></li><li><a href="https://diskominfo.jogjaprov.go.id/layanan/lihat/layanan-pembuatan-vpn">Permohonan Pembuatan VPN</a></li><li><a href="https://diskominfo.jogjaprov.go.id/layanan/lihat/layanan-ip-publik-instansi">Layanan IP Publik Instansi</a></li><li><a href="https://diskominfo.jogjaprov.go.id/layanan/lihat/fasilitasi-publikasi-videotron">Fasilitasi Publikasi Videotron</a></li><li><a href="http://mam.jogjaprov.go.id">Jogja Multimedia</a></li><li><a href="http://pgcsirt.jogjaprov.go.id/en/home/">Jogja PGCSIRT</a></li><li><a href="https://diskominfo.jogjaprov.go.id/layanan/lihat/co-working-space">Co-working Space</a></li><li><a href="https://diskominfo.jogjaprov.go.id/layanan-wifi-public">Layanan Wifi Public</a></li></ul></li><li><a href="https://diskominfo.jogjaprov.go.id/kontak">KONTAK</a></li>  
+
+</ul>
+</div>
+<!-- Nav End -->
+
+                
+
+
+
+                    
+                    <!-- Nav End -->
                 </div>
-              </div>
+
+                <div class="top-meta-data d-flex align-items-center">
+                    <!-- Top Search Area -->
+                    <div class="top-search-area">
+                        <form action="https://diskominfo.jogjaprov.go.id/cari" method="post">
+                            <input type="search" name="topSearch" id="topSearch" placeholder="pencarian">
+                            <button type="submit" class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                    <!-- Login -->
+                    <!--<a href="login.html" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>-->
+                    <!-- Submit Video -->
+                    <!--<a href="submit-video.html" class="submit-video"><span><i class="fa fa-cloud-upload"></i></span> <span class="video-text">Submit Video</span></a>-->
+                </div>
             </div>
-          </li>
-        </ul>
-              </div>
+        </nav>
     </div>
-  </nav>
+</div>
+</header>
+<!--<div class="header-area" style="background: linier-gradient(circle, rgba(63,94,251,1) 34%, rgba(70,248,252,1) 100%) !important; width: 100%; height:3px!important;">   &nbsp;  </div>--> 
+<div class="header-area" style="background: linear-gradient(90deg, rgba(63,94,251,1) 34%, rgba(70,248,252,1) 100%) !important; width: 100%; height:3px!important; z-index: -1;">   &nbsp;  </div> 
+
+<!-- ##### Header Area End ##### -->
 </section>
 <div class="modal" tabindex="-1" id="searchModal">
   <div class="modal-dialog" style="margin-top:140px">
@@ -2206,12 +982,12 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 d-flex justify-content-center" style="text-align:center" padding="10px">
+      <div class="col-lg-6 d-flex justify-content-center" style="text-align:left" padding="10px">
         <div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
           <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
           <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
           <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-          <h1>Wilayah Kabupaten Penukal Abab Lematang Ilir</h1>
+          <h2>Wilayah Kabupaten Penukal Abab Lematang Ilir</h2>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <a href="https://pusat.jakarta.go.id/" class="f-30" style="color:#000;"><img src="https://dev.jakarta.go.id/storage/files/shares/Wilayah/cover kota/atas pusat.jpg" style="width:100%; margin-top:10px; margin-bottom:10px" />
@@ -2219,19 +995,19 @@
   </a><p style="text-align: justify; "><span style="font-size: 14px;">Jakarta Pusat memiliki peran sebagai daerah pusat Pemerintahan Indonesia yang kaya akan daya tarik serta keunikan mulai dari kekayaan sejarah berdirinya negara, kesenian, dan wisatanya. Istana Negara dan Balikota berada di wilayah ini.</span></p>            </div>
             <div class="carousel-item">
               <a href="https://utara.jakarta.go.id/" class="f-30" style="color:#000;"><img src="https://dev.jakarta.go.id/storage/files/shares/Wilayah/cover kota/atas - utara.jpg" style="width:100%; margin-top:10px; margin-bottom:10px" />
-    <h3>Penukal</h3>
+    <h3>Penukal Utara</h3>
   </a><p style="text-align: justify; "><span style="font-size: 13px;">Jakarta Utara memiliki Pelabuhan Sunda Kelapa yang merupakan titik awal peradaban pesisir Jakarta berkembang. Rekam sejarah pelabuhan ini terekam secara lengkap di Museum Bahari, salah satu museum yang ramai dikunjungi wisatawan lokal mau pun mancanegara.&nbsp;</span><br></p>            </div>
             <div class="carousel-item">
               <a href="https://selatan.jakarta.go.id/" class="f-30" style="color:#000;"><img src="https://dev.jakarta.go.id/storage/files/shares/Wilayah/cover kota/atas - selatan.jpg" style="width:100%; margin-top:10px; margin-bottom:10px" />
-    <h3>Abab</h3>
+    <h3>Penukal</h3>
   </a><p style="text-align: justify; "><span style="font-size: 14px;">Jakarta Selatan tumbuh menjadi pusat peradaban yang paling popular di Jakarta. Wilayah ini menyuguhkan berbagai kemudahan, seperti banyaknya pusat perbelanjaan, pusat rekreasi anak, dan ruang terbuka. Wilayah ini juga menyimpan pusat kebudayaan Betawi terbesar yang terletak di daerah Srengseng, bernama Setu Babakan Betawi.&nbsp;</span><br></p>            </div>
             <div class="carousel-item">
               <a href="https://barat.jakarta.go.id/" class="f-30" style="color:#000;"><img src="https://dev.jakarta.go.id/storage/files/shares/Wilayah/cover kota/atas - barat.jpg" style="width:100%; margin-top:10px; margin-bottom:10px" />
-    <h3>Penukal Utara</h3>
-  </a><p style="text-align: justify; "><span style="font-size: 14px;">Penukal Utara mempunyai kekhususan sebagai ‘Kota Tua’ yang menyimpan banyak sejarah salah satunya Museum Fatahillah. Sebagai daerah dengan tingkat heterogen cukup tinggi, Jakarta Barat memiliki daerah bernama Glodok yang merupakan Chinatown dan terkenal dengan makanan kaki limanya serta memiliki banyak Vihara seperti Kelenteng Kim Tek Le yang usianya lebih dari tiga abad.</span><br></p>            </div>
+    <h3>Abab</h3>
+  <!-- </a><p style="text-align: justify; "><span style="font-size: 14px;">Penukal Utara mempunyai kekhususan sebagai ‘Kota Tua’ yang menyimpan banyak sejarah salah satunya Museum Fatahillah. Sebagai daerah dengan tingkat heterogen cukup tinggi, Jakarta Barat memiliki daerah bernama Glodok yang merupakan Chinatown dan terkenal dengan makanan kaki limanya serta memiliki banyak Vihara seperti Kelenteng Kim Tek Le yang usianya lebih dari tiga abad.</span><br></p>            </div>
             <div class="carousel-item">
               <a href="https://timur.jakarta.go.id/" class="f-30" style="color:#000;"><img src="https://dev.jakarta.go.id/storage/files/shares/Wilayah/cover kota/atas - timur.jpg" style="width:100%; margin-top:10px; margin-bottom:10px" />
-    <h3>Jakarta Timur</h3>
+    <h3>Jakarta Timur</h3> -->
   </a><p style="text-align: justify;"><span style="font-size: 14px;">Jakarta Timur merupakan wilayah terluas di Jakarta. Selain terkenal dengan situs sejarah pra dan pasca kemerdekaan, masih banyak industri yang beroperasi di wilayah ini. Taman Mini Indonesia Indah (TMII) sebagai miniatur budaya Indonesia juga berada di Jakarta Timur.</span><br></p>            </div>
             <div class="carousel-item">
               <a href="https://pulauseribu.jakarta.go.id/" class="f-30" style="color:#000;"><img src="https://dev.jakarta.go.id/storage/files/shares/Wilayah/cover kota/atas seribu.jpg" style="width:100%; margin-top:10px; margin-bottom:10px" />
@@ -2248,9 +1024,12 @@
         </div>
       </div>
       <div class="col-lg-6 d-none d-lg-block">
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" viewBox="-35 -500 1650 1650">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" viewBox="-35 10 1650 1650">
           <path id="cjakpus" data-target="#carouselExampleIndicators" data-slide-to="0" class="st0" d="M722 315 764 312 778 402 909 467 937 513 938 591 1021 679 1190 676 1267 692 1204 752C1165 757 1142 776 1098 834L1087 1012 1049 1024C1036 1017 1025 1011 1014 1027L915 1023 865 1001 833 912 753 845C720 876 720 837 707 820 696 820 688 831 674 820L648 842 605 807 583 826 560 814 524 742 491 754 474 780 474 823 470 858 478 875C475.3333 881.6667 472.6667 888.3333 470 895 446 916 451.3333 878.3333 442 870 427 856 434 848 441 841L441 796 409 776 365 796 235 915 215 896 218 841 201 825 189 762 230 725 247 693 286 678C307 687 331 692 356 688L361 674 431 646 444 681 441 690C466 702 481 705 500 689L530 686 550 675 569 640 567 576 558 561 555 532 585 479 602 472 587 436 625 407 641 396 638 378 659 358 675 364 689 338" />
           <path id="cjakut" data-target="#carouselExampleIndicators" data-slide-to="1" class="st0" d="M1086 213C1122 188 1132 113 1319 169 1303 165 1286 182 1264 181 1238 169 1233 161 1217 198 1211 219 1205 202 1205 224L1189 220C1189 221 1187 223 1183 224L1189 237 1167 248 1172 262C1175 283 1170 270 1161 309L1143 312C1141 326 1126 328 1108 342L1084 361C1068 365 1057 362 1049 376 1031 382 1034 390 1026 412 1027.6667 417.6667 1023.3333 423.3333 1019 426 1014 424 1008 417 1007 434L992 447 985 461 965 460 956 485 950 501 936 499 909 460 782 400 768 310 803 298 813 281 808 256C833 242 843 228 850 190 884 198 914 178 931 154" />
+          <path id="cjaksel" data-target="#carouselExampleIndicators" data-slide-to="2" class="st0" d="M1257 359C1264 345 1274.6667 333.3333 1276 318L1285 285C1296 273 1299 260 1309 246L1331 240C1316 207 1312 198 1323 176 1303 165 1286 182 1263 188 1241 180 1233 161 1222 202 1213 225 1205 202 1210 229L1190 223C1189 221 1189 225 1185 226L1192 240 1169 251 1175 262C1175 283 1170 270 1164 313L1150 316C1144 337 1126 328 1113 345L1085 368C1071 374 1057 362 1050 385 1040 387 1034 390 1033 414 1027.6667 417.6667 1023.3333 423.3333 1021 429 1016 433 1010 425 1012 437L995 450 986 469 968 465 959 491 952 506 939 507 945 518 947 594 1028 673 1189 667C1192 665 1195 669 1226 674 1254 661 1248 638 1255 625 1252 627 1242.3333 617.3333 1233 613 1226 591 1217 571 1209 551 1209 541 1204 525 1201 508 1200 489 1179 443 1248 417" />
+          <path id="cjakbar" data-target="#carouselExampleIndicators" data-slide-to="3" class="st0" d="M1260 360C1267.3333 346.6667 1274.6667 333.3333 1282 320L1285 296C1299.6667 270.3333 1299 260 1311 251L1331 243C1373 242 1401 262 1428 262 1449.6667 252 1471.3333 242 1493 232 1532 215 1511 193 1544 190 1561 199 1560 215 1571 217L1585 216C1582.3333 239 1578.6667 260 1575 281L1564 373 1549 518 1531 607C1504 626 1498 625 1491 652L1414 644C1397 675 1383 702 1360 708L1282 685C1266 681 1251.3333 682.6667 1241 676 1244.3333 661.3333 1255 644 1257 626 1249.6667 621.6667 1242.3333 617.3333 1235 613 1228 593 1222 570 1211 554 1205 541 1204 525 1206 512 1203 493 1182 455 1249 413" />
+          <path id="cseribu" data-target="#carouselExampleIndicators" data-slide-to="4" class="st0" d="M1103 836 1213 911Q1250 930 1257 926C1251 913 1234 913 1231 902 1233 894 1239 892 1243 887 1245 879 1252 856 1258 876L1265 887 1268 885 1270 868 1276 857 1283 859 1278 878 1278 895 1288 897 1296 892 1303 889 1309 883 1317 883 1320 875 1320 863 1305 854C1304 844 1309 838 1322 838 1327 834 1335 825 1342 835 1341 841 1337 844 1331 847 1318 856 1329 859 1337 857L1348 848 1361 849C1369 844 1361 839 1356 837 1358 814 1373 829 1376 836L1382 839C1390 837 1383 831 1384 830 1390 819 1399 819 1404 836 1407 850 1421 838 1421 838 1425 844 1440 848 1434 833 1436 823 1445 809 1457 830L1466 825C1469 817 1472 811 1485 812 1492 810 1490.3333 801.3333 1481 798 1492 798 1507 799 1493 781 1494 775 1498 773 1503 775 1504 778.6667 1505 782.3333 1506 786 1509 786 1511 786 1510 778L1515 771C1517 765 1519 757 1526 756L1518 750C1518 745 1521 745 1528 753 1532 752 1537 753 1530 736 1519 698 1504 715 1487 707L1484 698 1491 661 1417 651C1401 679 1388 704 1361 716L1277 692 1209 754 1174 767 1153 780 1123 812" />
           <!-- <path id="cjakbar" data-target="#carouselExampleIndicators" data-slide-to="3" class="st0" d="M722 315 764 312 778 402 909 467 937 513 938 591 1021 679 1190 676 1267 692 1204 752C1165 757 1142 776 1098 834L1087 1012 1049 1024C1036 1017 1025 1011 1014 1027L915 1023 865 1001 833 912 753 845C720 876 720 837 707 820 696 820 688 831 674 820L648 842 605 807 583 826 560 814 524 742 491 754 474 780 474 823 470 858 478 875C475.3333 881.6667 472.6667 888.3333 470 895 446 916 451.3333 878.3333 442 870 427 856 434 848 441 841L441 796 409 776 365 796 235 915 215 896 218 841 201 825 189 762 230 725 247 693 286 678C307 687 331 692 356 688L361 674 431 646 444 681 441 690C466 702 481 705 500 689L530 686 550 675 569 640 567 576 558 561 555 532 585 479 602 472 587 436 625 407 641 396 638 378 659 358 675 364 689 338" />
           <path id="cjakut" data-target="#carouselExampleIndicators" data-slide-to="1" class="st0" d="M1257 359C1264 345 1274.6667 333.3333 1276 318L1285 285C1296 273 1299 260 1309 246L1331 240C1316 207 1312 198 1323 176 1303 165 1286 182 1263 188 1241 180 1233 161 1222 202 1213 225 1205 202 1210 229L1190 223C1189 221 1189 225 1185 226L1192 240 1169 251 1175 262C1175 283 1170 270 1164 313L1150 316C1144 337 1126 328 1113 345L1085 368C1071 374 1057 362 1050 385 1040 387 1034 390 1033 414 1027.6667 417.6667 1023.3333 423.3333 1021 429 1016 433 1010 425 1012 437L995 450 986 469 968 465 959 491 952 506 939 507 945 518 947 594 1028 673 1189 667C1192 665 1195 669 1226 674 1254 661 1248 638 1255 625 1252 627 1242.3333 617.3333 1233 613 1226 591 1217 571 1209 551 1209 541 1204 525 1201 508 1200 489 1179 443 1248 417" />
           <path id="cjakpus" data-target="#carouselExampleIndicators" data-slide-to="0" class="st0" d="M1260 360C1267.3333 346.6667 1274.6667 333.3333 1282 320L1285 296C1299.6667 270.3333 1299 260 1311 251L1331 243C1373 242 1401 262 1428 262 1449.6667 252 1471.3333 242 1493 232 1532 215 1511 193 1544 190 1561 199 1560 215 1571 217L1585 216C1582.3333 239 1578.6667 260 1575 281L1564 373 1549 518 1531 607C1504 626 1498 625 1491 652L1414 644C1397 675 1383 702 1360 708L1282 685C1266 681 1251.3333 682.6667 1241 676 1244.3333 661.3333 1255 644 1257 626 1249.6667 621.6667 1242.3333 617.3333 1235 613 1228 593 1222 570 1211 554 1205 541 1204 525 1206 512 1203 493 1182 455 1249 413" />
@@ -3153,7 +1932,14 @@
     document.getElementById("caption-channel").innerHTML = s;
   }
 </script>
-
+<!-- Popper js -->
+<script src="https://diskominfo.jogjaprov.go.id/asset/js/bootstrap/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="https://diskominfo.jogjaprov.go.id/asset/js/bootstrap/bootstrap.min.js"></script>
+<!-- All Plugins js -->
+<script src="https://diskominfo.jogjaprov.go.id/asset/js/plugins/plugins.js"></script>
+<!-- Active js -->
+<script src="https://diskominfo.jogjaprov.go.id/asset/js/active.js"></script>
 </body>
 
 </html>
